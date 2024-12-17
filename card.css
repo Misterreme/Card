@@ -1,0 +1,110 @@
+:root {
+    --primary-color: rgb(255, 255, 255)   
+}
+
+body {
+    align-items: center;
+    background-image: url("https://images.pexels.com/photos/18994297/pexels-photo-18994297.jpeg?cs=srgb&dl=pexels-jakubzerdzicki-18994297.jpg&fm=jpg");
+    background-position: center center;
+    background-size: 100%;
+    display: flex;
+    letter-spacing: -1px;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+h1 {
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    margin: 10px;
+}
+
+p {
+    font-size: 20px;
+    margin: 0;
+    color: grey;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700; /* Negrita */
+}
+
+.container {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+}
+
+.card {
+    background-color: var(--primary-color);
+    display: flex;
+    border-radius: 30px;
+    flex-direction: column;
+    height: 290px;
+    width: 400px;
+    overflow: hidden;
+    position: absolute;
+}
+
+.logo {
+    left: 135px;
+    position: absolute;
+    top: 30px;
+}
+
+.logo img {
+    width: 130px;
+}
+
+.card-textos {
+    background-color: var(--primary-color);
+    bottom: 0;
+    margin-bottom: 70px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+.container .card .background-img  {
+    background-image: url("https://alphaenginyeria.com/wp-content/uploads/2019/04/Big-Data-en-el-sector-de-las-telecomunicaciones.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: right right;
+    height: 35%;
+    width: 100%;
+    position: absolute;
+}
+
+.socials-img {
+    display: flex;
+    gap: 15px;
+    left: 40px;
+    position: absolute;
+    bottom: 20px;
+}
+
+.social-buttom {
+    display: flex;
+    justify-content: center;
+    height: 20px;
+    width: 40px;
+    background-color: grey;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.socials-img img {
+    width: 20px;
+}
+
+
+
+  
+
+
+
