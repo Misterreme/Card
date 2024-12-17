@@ -82,13 +82,15 @@ p {
 
 .socials-img {
     display: flex;
+    align-items: center;
     gap: 15px;
     left: 40px;
     position: absolute;
-    bottom: 20px;
+    bottom: 10px;
+    height: 50px;
 }
 
-.social-buttom {
+.youtube-buttom {
     display: flex;
     justify-content: center;
     height: 20px;
@@ -96,6 +98,81 @@ p {
     background-color: grey;
     border-radius: 10px;
     padding: 5px;
+    transition: 0.3s;
+}
+
+.github-buttom {
+    display: flex;
+    justify-content: center;
+    height: 20px;
+    width: 40px;
+    background-color: grey;
+    border-radius: 10px;
+    padding: 5px;
+    transition: 0.3s;
+}
+
+.twitter-buttom {
+    display: flex;
+    justify-content: center;
+    height: 20px;
+    width: 40px;
+    background-color: grey;
+    border-radius: 10px;
+    padding: 5px;
+    transition: 0.3s;
+}
+
+.instagram-buttom {
+    display: flex;
+    justify-content: center;
+    height: 20px;
+    width: 40px;
+    background-color: grey;
+    border-radius: 10px;
+    padding: 5px;
+    transition: 0.3s;
+}
+
+.facebook-buttom {
+    display: flex;
+    justify-content: center;
+    height: 20px;
+    width: 40px;
+    background-color: grey;
+    border-radius: 10px;
+    padding: 5px;
+    transition: 0.3s;
+}
+
+.youtube-buttom:hover {
+    width: 40px;
+    height: 30px;
+    background-color: #ff0000;
+}
+
+.github-buttom:hover {
+    width: 40px;
+    height: 30px;
+    background-color: #333;
+}
+
+.twitter-buttom:hover {
+    width: 40px;
+    height: 30px;
+    background-color: #1da1f2;
+}
+
+.instagram-buttom:hover {
+    width: 40px;
+    height: 30px;
+    background-color: #e1306c;
+}
+
+.facebook-buttom:hover {
+    width: 40px;
+    height: 30px;
+    background-color: #1877f2;
 }
 
 .socials-img img {
